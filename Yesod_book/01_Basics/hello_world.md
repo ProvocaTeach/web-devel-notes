@@ -32,7 +32,9 @@ According to the [“Resources and Statements” section](https://www.w3.org/TR/
 
 > Any \[URL or URI\] denotes something in the world (the "universe of discourse"). These things are called **resources.**
 
-`HomeR` is a **resource** (hence the "R"). 
+`HomeR` is a **resource** (hence the "R").
+
+We have created a datatype called `HelloWorld` t
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
@@ -64,6 +66,6 @@ type Handler = HandlerT HelloWorld IO
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mjg2Njk5NCwxMzYzNzMxMTYsNTYyMD
-kxMTAxLC0xMDY0Mjk4MDQzXX0=
+eyJoaXN0b3J5IjpbLTE3NjYzNDUwODgsMTM2MzczMTE2LDU2Mj
+A5MTEwMSwtMTA2NDI5ODA0M119
 -->
