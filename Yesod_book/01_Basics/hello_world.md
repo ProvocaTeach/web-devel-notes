@@ -63,8 +63,7 @@ instance YesodDispatch HelloWorld where
 type Handler = HandlerT HelloWorld IO
 ```
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2ND
-I5ODA0M119
+eyJoaXN0b3J5IjpbLTk2Mjg2Njk5NCwxMzYzNzMxMTYsNTYyMD
+kxMTAxLC0xMDY0Mjk4MDQzXX0=
 -->
