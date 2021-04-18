@@ -31,8 +31,9 @@ main = warp 3000 HelloWorld
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
-  *
+  * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NTk2MTIyNDUsLTEwNjQyOTgwNDNdfQ
+==
 -->
