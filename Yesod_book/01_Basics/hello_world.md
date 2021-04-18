@@ -27,12 +27,12 @@ main = warp 3000 HelloWorld
 
 `HomeR` is a **resource** (hence the "R").
 
-  * For a definition of **resource**, see the World Wide Web Consortium (W3C) page on the Resource Des
+  * For a definition of **resource**, see [“Resources and Statements” section](https://www.w3.org/TR/rdf11-concepts/#resources-and-statements) of the World Wide Web Consortium (W3C) primer on the Resource Description Framework (RDF).
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
   * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NDMzNDA2LC0xMDY0Mjk4MDQzXX0=
+eyJoaXN0b3J5IjpbLTQ2OTIxNzE5OSwtMTA2NDI5ODA0M119
 -->
