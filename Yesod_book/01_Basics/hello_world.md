@@ -34,7 +34,7 @@ According to the [“Resources and Statements” section](https://www.w3.org/TR/
 
 `HomeR` is a **resource** (hence the "R").
 
-We have created a datatype called `HelloWorld` t
+We have created a datatype called `HelloWorld` and made it an instance of the `Yesod` typeclass. Then, we passed the *string* `"HelloWorld"` to a function called `mkYesod`.
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
@@ -66,6 +66,6 @@ type Handler = HandlerT HelloWorld IO
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYzNDUwODgsMTM2MzczMTE2LDU2Mj
-A5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOT
+ExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
