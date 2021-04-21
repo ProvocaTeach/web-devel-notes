@@ -74,9 +74,9 @@ type Handler = HandlerT HelloWorld IO
 	 - `parseRoute` is the inverse of `renderRoute`. It takes path segments and query string parameters and returns a route.
 	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
  * `HelloWorld` is also an instance of `YesodDispatch`.
-	 - f
+	 - Think “911 dispatch”. It takes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODUwNzEwODQsLTkyNDI4MDA1Nyw0Mz
-MyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0
-M119
+eyJoaXN0b3J5IjpbLTkxMjc0NTY0NywtOTI0MjgwMDU3LDQzMz
+IyNjYwMSwxMzYzNzMxMTYsNTYyMDkxMTAxLC0xMDY0Mjk4MDQz
+XX0=
 -->
