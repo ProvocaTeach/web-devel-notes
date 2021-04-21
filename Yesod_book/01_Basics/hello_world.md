@@ -44,7 +44,7 @@ instance RenderRoute HelloWorld where
     data Route HelloWorld = HomeR
         deriving (Show, Eq, Read)
     renderRoute HomeR = ([], [])
-
+```
 instance ParseRoute HelloWorld where
     parseRoute ([], _) = Just HomeR
     parseRoute _       = Nothing
@@ -66,6 +66,6 @@ type Handler = HandlerT HelloWorld IO
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOT
-ExMDEsLTEwNjQyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTM1MzQ0NDg5OSw0MzMyMjY2MDEsMTM2Mz
+czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
 -->
