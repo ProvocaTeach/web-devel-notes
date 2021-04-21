@@ -84,9 +84,14 @@ Uses of handler functions:
  - Query databases
  - Create responses (e.g. for a REST API)
 
-The `defaultLayout` function wraps inputs it receives
+The `defaultLayout` function wraps inputs it receives in the site’s template.
+
+ - Customizable
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDA4NTEwNywyMDA4MTQzMzgyLDE5Nz
-Y2MDc3NjMsLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2MzczMTE2
-LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTIwNjgxOTQxMDcsMjAwODE0MzM4MiwxOT
+c2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzEx
+Niw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
