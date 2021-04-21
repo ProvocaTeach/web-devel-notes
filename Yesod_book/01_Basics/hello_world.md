@@ -84,13 +84,18 @@ Uses of handler functions:
  - Query databases
  - Create responses (e.g. for a REST API)
 
+Yesod convention: lowercase method name (`get`) ++ name of resource with R (`HomeR`) = handler function name (`getHomeR`)
+
 The `defaultLayout` function wraps inputs it receives in the site’s template.
 
  - By default, adds standard HTML elements: `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` tags.
  - Customizable
+ - 
 
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Mjg4MDIzLDIxMjEyNTQzNDEsMjAwOD
-E0MzM4MiwxOTc2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAx
-LDEzNjM3MzExNiw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTExOTMxNjk2MDAsLTg2Mjg4MDIzLDIxMj
+EyNTQzNDEsMjAwODE0MzM4MiwxOTc2NjA3NzYzLC05MjQyODAw
+NTcsNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOTExMDEsLTEwNj
+QyOTgwNDNdfQ==
 -->
