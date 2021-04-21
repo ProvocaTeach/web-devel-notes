@@ -34,7 +34,7 @@ According to the [“Resources and Statements” section](https://www.w3.org/TR/
 
 `HomeR` is a **resource** (hence the "R").
 
-We have created a datatype called `HelloWorld` and made it an instance of the `Yesod` typeclass. Then, we passed the *string* `"HelloWorld"` to a function called `mkYesod`.
+We have created a datatype called `HelloWorld` and made it an instance of the `Yesod` typeclass. Then, we passed the *string* `"HelloWorld"` to 
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
@@ -44,7 +44,7 @@ instance RenderRoute HelloWorld where
     data Route HelloWorld = HomeR
         deriving (Show, Eq, Read)
     renderRoute HomeR = ([], [])
-```
+
 instance ParseRoute HelloWorld where
     parseRoute ([], _) = Just HomeR
     parseRoute _       = Nothing
@@ -65,7 +65,9 @@ instance YesodDispatch HelloWorld where
 type Handler = HandlerT HelloWorld IO
 ```
 
+ - `RenderRoute` typeclass: defines an *associated data t
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzQ0NDg5OSw0MzMyMjY2MDEsMTM2Mz
-czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTE1OTUyNjcxMjYsNDMzMjI2NjAxLDEzNj
+M3MzExNiw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
