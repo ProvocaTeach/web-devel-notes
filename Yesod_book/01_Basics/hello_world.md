@@ -75,9 +75,12 @@ type Handler = HandlerT HelloWorld IO
 	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
  * `HelloWorld` is also an instance of `YesodDispatch`.
 	 - Think “911 dispatch”. `YesodDispatch` has functions that route requests to the appropriate handler.
+
+### Handlers
+To define how `HomeR` responds to `GET` requests, write a handler function: `getHomeR`.
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjYwNzc2MywtOTI0MjgwMDU3LDQzMz
-IyNjYwMSwxMzYzNzMxMTYsNTYyMDkxMTAxLC0xMDY0Mjk4MDQz
-XX0=
+eyJoaXN0b3J5IjpbMjAwODE0MzM4MiwxOTc2NjA3NzYzLC05Mj
+QyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOTExMDEs
+LTEwNjQyOTgwNDNdfQ==
 -->
