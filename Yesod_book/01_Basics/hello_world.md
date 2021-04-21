@@ -47,7 +47,7 @@ instance RenderRoute HelloWorld where
 
 instance ParseRoute HelloWorld where
 	{- If the first arg is the empty list, `parseRoutes`
-	outputs `HomeR`, the home resource -}
+	outputs `HomeR`, the home resource. -}
     parseRoute ([], _) = Just HomeR
     parseRoute _       = Nothing
 
@@ -72,11 +72,11 @@ type Handler = HandlerT HelloWorld IO
 	 - The function `renderRoute` takes a route and spits out path segments and query string parameters.
  * `HelloWorld` is also an instance of the `ParseRoutes` typeclass.
 	 - `parseRoute` is the inverse of `renderRoute`. It takes path segments and query string parameters and returns a route.
-		 - 
 	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
+	 - `HelloWorld` is also an instance of `YesodDispatch`.
 	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDkyNDc5MjEsLTkyNDI4MDA1Nyw0Mz
-MyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0
-M119
+eyJoaXN0b3J5IjpbLTYzNjgyMTQwOSwtOTI0MjgwMDU3LDQzMz
+IyNjYwMSwxMzYzNzMxMTYsNTYyMDkxMTAxLC0xMDY0Mjk4MDQz
+XX0=
 -->
