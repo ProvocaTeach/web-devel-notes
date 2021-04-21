@@ -69,9 +69,12 @@ type Handler = HandlerT HelloWorld IO
 	 - The type `Route HelloWorld` has data constructor `HomeR`.
 	 - The function `renderRoute` takes a route and spits out path segments and query string parameters.
  * `HelloWorld` is also an instance of the `ParseRoutes` typeclass.
-	 - `parseRoute` is the inverse of `renderRoute`.
+	 - `parseRoute` is the inverse of `renderRoute`. It takes path segments and query string parameters and returns a route.
+		 - If the first arg is the empty list, `parseRoutes` outputs `HomeR`, the hom
 	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
+	 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2Mz
-czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTE1NzE0MTYzNjIsLTkyNDI4MDA1Nyw0Mz
+MyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0
+M119
 -->
