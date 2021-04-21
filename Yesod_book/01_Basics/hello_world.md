@@ -3,7 +3,7 @@
 
 This covers the first part of the ["Basics" chapter of the Yesod book](https://www.yesodweb.com/book/basics).
 
-## The program ##
+## The program
 
 ```haskell
 {-# LANGUAGE OverloadedStrings     #-}
@@ -87,7 +87,7 @@ Uses of handler functions:
  - Create responses (e.g. with a REST API)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM4MDM1MjMsMjAwODE0MzM4MiwxOT
+eyJoaXN0b3J5IjpbLTE3NTk3NDMyODcsMjAwODE0MzM4MiwxOT
 c2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzEx
 Niw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
