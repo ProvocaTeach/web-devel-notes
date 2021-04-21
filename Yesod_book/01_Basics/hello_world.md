@@ -102,11 +102,12 @@ The foundation datatype:
 
 Things that might be stored in a foundation datatype:
 
- - List item
+ - Database connection pool (apparently this is a collection of “remembered” database connections to speed things up)
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1ODU4MDIzLC04NjI4ODAyMywyMTIxMj
-U0MzQxLDIwMDgxNDMzODIsMTk3NjYwNzc2MywtOTI0MjgwMDU3
-LDQzMzIyNjYwMSwxMzYzNzMxMTYsNTYyMDkxMTAxLC0xMDY0Mj
-k4MDQzXX0=
+eyJoaXN0b3J5IjpbLTM2MjY3ODQxMiwtODYyODgwMjMsMjEyMT
+I1NDM0MSwyMDA4MTQzMzgyLDE5NzY2MDc3NjMsLTkyNDI4MDA1
+Nyw0MzMyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2ND
+I5ODA0M119
 -->
