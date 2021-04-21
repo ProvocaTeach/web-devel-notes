@@ -100,9 +100,13 @@ The foundation datatype:
  - Has the same name as the app (usually)
  - Is an instance of the `Yesod` typeclass
 
+Things that might be stored in a foundation datatype:
+
+ - List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzg4MzI3NSwtODYyODgwMjMsMjEyMT
-I1NDM0MSwyMDA4MTQzMzgyLDE5NzY2MDc3NjMsLTkyNDI4MDA1
-Nyw0MzMyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2ND
-I5ODA0M119
+eyJoaXN0b3J5IjpbNTk1ODU4MDIzLC04NjI4ODAyMywyMTIxMj
+U0MzQxLDIwMDgxNDMzODIsMTk3NjYwNzc2MywtOTI0MjgwMDU3
+LDQzMzIyNjYwMSwxMzYzNzMxMTYsNTYyMDkxMTAxLC0xMDY0Mj
+k4MDQzXX0=
 -->
