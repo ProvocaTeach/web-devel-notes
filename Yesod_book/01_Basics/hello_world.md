@@ -77,10 +77,11 @@ type Handler = HandlerT HelloWorld IO
 	 - Think “911 dispatch”. `YesodDispatch` has functions that route requests to the appropriate handler.
 
 ### Handlers
-To define how `HomeR` responds to `GET` requests, write a handler function: `getHomeR`.
-	 - 
+To define how `HomeR` responds to `GET` requests, write a **handler function:** `getHomeR`.
+
+Properties of han
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODE0MzM4MiwxOTc2NjA3NzYzLC05Mj
-QyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOTExMDEs
-LTEwNjQyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ0OTUyNiwyMDA4MTQzMzgyLDE5Nz
+Y2MDc3NjMsLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2MzczMTE2
+LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
 -->
