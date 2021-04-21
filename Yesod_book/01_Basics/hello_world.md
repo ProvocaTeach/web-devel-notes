@@ -89,10 +89,8 @@ The `defaultLayout` function wraps inputs it receives in the site’s template.
  - By default, adds standard HTML elements: `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` tags.
  - Customizable
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTI1NDM0MSwyMDA4MTQzMzgyLDE5Nz
-Y2MDc3NjMsLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2MzczMTE2
-LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTg2Mjg4MDIzLDIxMjEyNTQzNDEsMjAwOD
+E0MzM4MiwxOTc2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAx
+LDEzNjM3MzExNiw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
