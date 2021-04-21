@@ -93,10 +93,16 @@ The `defaultLayout` function wraps inputs it receives in the site’s template.
 
 ### Foundation
 
-Every Yesod app has a foundation datatype. In this case, it was `HelloWorld`.
+Every Yesod app has a **foundation datatype**. In this case, it was `HelloWorld`.
+
+The foundation datatype:
+
+ - Has the same name as the app (usually)
+ - Is an instance of the `Yesod` typeclass
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg3NTMwOTcsLTg2Mjg4MDIzLDIxMj
-EyNTQzNDEsMjAwODE0MzM4MiwxOTc2NjA3NzYzLC05MjQyODAw
-NTcsNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOTExMDEsLTEwNj
-QyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbMTM3Mzg4MzI3NSwtODYyODgwMjMsMjEyMT
+I1NDM0MSwyMDA4MTQzMzgyLDE5NzY2MDc3NjMsLTkyNDI4MDA1
+Nyw0MzMyMjY2MDEsMTM2MzczMTE2LDU2MjA5MTEwMSwtMTA2ND
+I5ODA0M119
 -->
