@@ -66,9 +66,10 @@ type Handler = HandlerT HelloWorld IO
 ```
 
  - `HelloWorld` is made an instance of the `RenderRoute` typeclass.
-	 - The type `Route HelloWorld` is a `HomeR`
+	 - The type `Route HelloWorld` has data constructor `HomeR`.
+	 - The function `renderRoute` takes a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDYzODY3Nyw0MzMyMjY2MDEsMTM2Mz
-czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTIwNjYwNjM4MjQsNDMzMjI2NjAxLDEzNj
+M3MzExNiw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
