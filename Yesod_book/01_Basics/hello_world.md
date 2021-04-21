@@ -46,8 +46,6 @@ instance RenderRoute HelloWorld where
     renderRoute HomeR = ([], [])
 
 instance ParseRoute HelloWorld where
-	{- If the first arg is the empty list, `parseRoutes`
-	outputs `HomeR`, the home resource. -}
     parseRoute ([], _) = Just HomeR
     parseRoute _       = Nothing
 
@@ -84,10 +82,11 @@ Uses of handler functions:
  - Render pages
  - Process user input
  - Query databases
- - Create responses (e.g. with a REST API)
+ - Create responses (e.g. for a REST API)
 
+The `defaultLayout` function wraps inputs it receives
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk3NDMyODcsMjAwODE0MzM4MiwxOT
-c2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzEx
-Niw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTUxMDA4NTEwNywyMDA4MTQzMzgyLDE5Nz
+Y2MDc3NjMsLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2MzczMTE2
+LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
 -->
