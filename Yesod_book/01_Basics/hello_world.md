@@ -34,7 +34,7 @@ According to the [“Resources and Statements” section](https://www.w3.org/TR/
 
 `HomeR` is a **resource** (hence the "R").
 
-We have created a datatype called `HelloWorld` and made it an instance of the `Yesod` typeclass. Then, we passed the *string* `"HelloWorld"` to 
+We have created a datatype called `HelloWorld` and made it an instance of the `Yesod` typeclass. Then, we passed the *string* `"HelloWorld"` to `mkYesod`.
 
 `mkYesod` is a Template Haskell function. To see the code it generates, use `ddump-splices`.
 
@@ -72,6 +72,6 @@ type Handler = HandlerT HelloWorld IO
 	 - `parseRoute` is the inverse of `renderRoute`.
 	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTEyMjA2MSw0MzMyMjY2MDEsMTM2Mz
+eyJoaXN0b3J5IjpbLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2Mz
 czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
 -->
