@@ -79,9 +79,15 @@ type Handler = HandlerT HelloWorld IO
 ### Handlers
 To define how `HomeR` responds to `GET` requests, write a **handler function:** `getHomeR`.
 
-Properties of han
+Uses of handler functions:
+
+ - Render pages
+ - Process user input
+ - Query databases
+ - Create responses (e.g. with a REST API)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0OTUyNiwyMDA4MTQzMzgyLDE5Nz
-Y2MDc3NjMsLTkyNDI4MDA1Nyw0MzMyMjY2MDEsMTM2MzczMTE2
-LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
+eyJoaXN0b3J5IjpbLTExMTM4MDM1MjMsMjAwODE0MzM4MiwxOT
+c2NjA3NzYzLC05MjQyODAwNTcsNDMzMjI2NjAxLDEzNjM3MzEx
+Niw1NjIwOTExMDEsLTEwNjQyOTgwNDNdfQ==
 -->
