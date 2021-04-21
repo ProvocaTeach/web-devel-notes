@@ -90,11 +90,12 @@ The `defaultLayout` function wraps inputs it receives in the site’s template.
 
  - By default, adds standard HTML elements: `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>` tags.
  - Customizable
- - 
 
-### 
+### Foundation
+
+Every Yesod app has a foundation datatype. In this case, it was `HelloWorld`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMxNjk2MDAsLTg2Mjg4MDIzLDIxMj
+eyJoaXN0b3J5IjpbLTE0ODg3NTMwOTcsLTg2Mjg4MDIzLDIxMj
 EyNTQzNDEsMjAwODE0MzM4MiwxOTc2NjA3NzYzLC05MjQyODAw
 NTcsNDMzMjI2NjAxLDEzNjM3MzExNiw1NjIwOTExMDEsLTEwNj
 QyOTgwNDNdfQ==
