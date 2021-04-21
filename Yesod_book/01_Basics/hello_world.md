@@ -70,8 +70,8 @@ type Handler = HandlerT HelloWorld IO
 	 - The function `renderRoute` takes a route and spits out path segments and query string parameters.
  * `HelloWorld` is also an instance of the `ParseRoutes` typeclass.
 	 - `parseRoute` is the inverse of `renderRoute`.
-	 - We use Template Haskell so that
+	 - We use Template Haskell so that `renderRoute` and `parseRoute` have the correct inverse behavior.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NTkxMjYwLDQzMzIyNjYwMSwxMzYzNz
-MxMTYsNTYyMDkxMTAxLC0xMDY0Mjk4MDQzXX0=
+eyJoaXN0b3J5IjpbLTQyOTEyMjA2MSw0MzMyMjY2MDEsMTM2Mz
+czMTE2LDU2MjA5MTEwMSwtMTA2NDI5ODA0M119
 -->
