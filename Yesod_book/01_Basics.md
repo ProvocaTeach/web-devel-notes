@@ -105,6 +105,7 @@ Things that might be stored in a foundation datatype:
  - Database connection pool (apparently this is a collection of “remembered” database connections to speed things up)
  - Configuration settings (loaded from config file)
  - An HTTP connection manager
+ - A random number generator
 
 # 1.2. Links
 
@@ -134,5 +135,5 @@ getPage2R = defaultLayout [whamlet|<a href=@{HomeR}>Go home!|]
 main = warp 3000 Links
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NTA2MjkyXX0=
+eyJoaXN0b3J5IjpbMTE4Mjk4ODI4M119
 -->
