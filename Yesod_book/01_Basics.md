@@ -107,7 +107,7 @@ Things that might be stored in a foundation datatype:
  - An HTTP connection manager
  - A random number generator
 
-**Warp** is the server designed to run Yes
+**Warp** is the server designed to run Yesod.
 
 # 1.2. Links
 
@@ -137,5 +137,5 @@ getPage2R = defaultLayout [whamlet|<a href=@{HomeR}>Go home!|]
 main = warp 3000 Links
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDEwODU5OV19
+eyJoaXN0b3J5IjpbLTMxNTA0ODI2Nl19
 -->
